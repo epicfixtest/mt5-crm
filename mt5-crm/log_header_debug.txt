@@ -1,0 +1,13 @@
+Array
+(
+    [Host] => epictest.info
+    [Accept] => */*
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => en;q=0.5
+    [User-Agent] => MetaTrader 5 Terminal/5.5120 (Windows Server 6.1.7601; x64; Wine 10.0 Darwin 24.5.0)
+    [Connection] => keep-alive
+    [Content-Type] => application/json
+    [X-Auth-Token] => epictest1234
+    [Content-Length] => 73
+    [X-HTTPS] => 1
+)

@@ -1,0 +1,58 @@
+[13-May-2025 13:58:36 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/layout_admin.php on line 2
+[13-May-2025 13:58:56 UTC] PHP Warning:  Undefined array key "referrer_id" in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_member.php on line 161
+[13-May-2025 13:58:56 UTC] PHP Warning:  Undefined array key "referrer_id" in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_member.php on line 161
+[13-May-2025 13:59:51 UTC] PHP Warning:  Undefined array key "referrer_id" in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_member.php on line 161
+[13-May-2025 13:59:51 UTC] PHP Warning:  Undefined array key "referrer_id" in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_member.php on line 161
+[18-May-2025 07:56:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_by' in 'ON' in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/announcements.php:21
+Stack trace:
+#0 /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/announcements.php(21): PDO->query()
+#1 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/announcements.php on line 21
+[18-May-2025 07:57:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_by' in 'ON' in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/announcements.php:21
+Stack trace:
+#0 /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/announcements.php(21): PDO->query()
+#1 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/announcements.php on line 21
+[18-May-2025 08:04:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_by' in 'ON' in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/announcements.php:21
+Stack trace:
+#0 /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/announcements.php(21): PDO->query()
+#1 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/announcements.php on line 21
+[06-Jun-2025 14:04:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_member.php on line 191
+[06-Jun-2025 14:04:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_member.php on line 192
+[06-Jun-2025 14:04:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_member.php on line 193
+[07-Jun-2025 09:07:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.points_required' in 'SELECT' in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/reports.php:38
+Stack trace:
+#0 /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/reports.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/reports.php on line 38
+[07-Jun-2025 09:07:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.points_required' in 'SELECT' in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/reports.php:38
+Stack trace:
+#0 /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/reports.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/reports.php on line 38
+[07-Jun-2025 09:42:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'crm.bot_presets' doesn't exist in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_presets.php:46
+Stack trace:
+#0 /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_presets.php(46): PDO->query()
+#1 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_presets.php on line 46
+[07-Jun-2025 09:50:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_role() in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php on line 5
+[07-Jun-2025 09:50:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_role() in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php on line 5
+[07-Jun-2025 09:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_role() in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php on line 5
+[07-Jun-2025 09:51:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_role() in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php on line 5
+[07-Jun-2025 09:51:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_role() in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/i3d6arueje91/public_html/epictest.info/mt5-crm/admin/manage_activities.php on line 5
